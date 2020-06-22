@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>landing page</title>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+  <body>
+    <header id="header">
+      <img src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" id="header-img">
+      <nav id="nav-bar">
+        <ul>
+          <li class="nav-link"><a href=#section-features>Features</a></li>
+          <li class="nav-link"><a href="#section-video">How It Works</a></li>
+          <li  class="nav-link"><a href=#section-pricing>Pricing</a></li>
+        </ul>
+      </nav>
+      <form id="form">
+        <h1>Handcrafted, home-made masterpieces</h1>
+        <input type="email" placeholder="Enter your email address">
+        <br>
+        <button type="submit" value="Submit"><a href="https://www.freecodecamp.com/email-submit">Get Started</a></button>
+      </form>
+    </header>
+    <section class="section-features"  id="section-features">
+      <div>
+        
+        <i class="fa fa-fire"></i> 
+        <h2>Premium Materials</h2>
+        <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+      </div>
+      <div>
+      <i class="fa fa-truck"></i> 
+        <h2>Fast Shipping</h2>
+        <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+      </div>
+      <div>
+        <i class="fa fa-battery-full"></i> 
+        <h2>Quality Assurance</h2>
+        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+      
+    
+      </div>
+    </section>
+    <section id="section-video" class="section-video">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/tYNET61hgmU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </section>
+    <section class="section-pricing" id="section-pricing">
+      <div class="box">
+        <h4>TENOR TROMBONE</h4>
+        <h3>$600</h3>
+        <ul>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        <ul>
+          <button type="submit"  value="submit">Submit</button>
+            </div>
+      <div class="box">
+        <h4>TENOR TROMBONE</h4>
+        <h3>$600</h3>
+        <ul>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        <ul>
+          <button type="submit" value="submit">Submit</button>
+      </div>
+      <div class="box">
+        <h4>TENOR TROMBONE</h4>
+        <h3>$600</h3>
+        <ul>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum.</li>
+          <li>Lorem ipsum dolor.</li>
+          <li>Lorem ipsum.</li>
+        <ul>
+          <button type="submit" value="submit">Submit</button>
+      </div>
+    </section>
+     <div class="footer">
+       <nav id="footer-nav">
+         <ul>
+           <li>Privacy</li>
+           <li>Terms</li>
+           <li>Contact</li>
+         </ul>
+       </nav>
+       <p>Copyright &copy; 2020, Shagufta Shahroz</p>
+     </div>
+  </body>
+</html>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header-img {
+  width:20%;
+  height:auto;
+  height:auto;
+  float:left;
+}
+header {
+  padding-top:7%;
+  padding-bottom:3%;
+}
+#nav-bar {
+  margin-left:60%;
+  font-size:140%;
+}
+#nav-bar li {
+  float:left;
+  display:inline;
+  text-decoration:none;
+  list-style:none;
+  padding-right:10%;
+}
+.nav-link a {
+  text-decoration:none;
+  color:#000;
+  display:inline-block;
+}
+.nav-link a:hover,
+.nav-link a:visited {
+  border-bottom:1px solid #000;
+}
+h1 {
+ padding-top:6%;
+ text-align:center;
+}
+input[type="email"] {
+  text-align:center;
+  margin-left:30%;
+  margin-top:1%;
+  width:40%;
+  height:20%;
+  padding:5px;
+  box-sizing:border-box;
+}
+ button {
+  margin-left:40%;
+  margin-right:25%;
+  margin-top:1%;
+  width:15%;
+  padding:0.5% 0 0.5% 0;
+  text-align:center;
+  background-color: #de8d37;
+  color:#000;
+  font-size:100%;
+  border:1px solid #000;
+  transition:color 0.1s,background-color 0.1s,border 0.1s;
+}
+button:hover,
+button:visited {
+  background-color:#ed8211;
+  border:1px solid #ed8211;
+  color:#fff;
+}
+button a {
+  text-decoration:none;
+  color:#000;
+}
+button a:hover,
+button a:visited {
+  color:#fff;
+}
+.section-features {
+  padding-top:1%;
+  padding-bottom:10%;
+}
+.section-features i {
+  color:#de8d37;
+  font-size:500%;
+  float:left;
+  padding-right:10%;
+  font-size:400%;
+}
+.section-features div {
+  margin-top:10%;
+  margin-left:25%;
+  margin-right:25%;
+}
+.section-features p {
+  padding-left:25%
+}
+.section-features h2 {
+ padding-left:25%; 
+}
+.section-video {
+  text-align:center;
+  padding-bottom:10%;
+  width:100%;
+  height:auto;
+}
+#form {
+  padding-top:3%;
+}
+.section-pricing {
+  padding-top:3%;
+  padding-left:20%;
+  padding-bottom:30%;
+}
+.section-pricing div {
+  float:left;
+}
+.section-pricing button {
+  width:40%;
+  margin-left:27%;
+  margin-right:50%;
+  margin-top:10%;
+  margin-bottom:4%;
+}
+h4 {
+  padding:15px 0;
+  border:1px solid #d1cdc9;
+  background-color:#d1cdc9;
+  text-align:center;
+}
+.box {
+  border:1px solid black;
+  margin-left:7%;
+  width:20%;
+}
+.box li {
+  list-style:none;
+  text-align:center;
+  padding-bottom:2%;
+}
+h3 {
+  text-align:center;
+  padding:15px 0;
+}
+.footer {
+  padding:3px 0 70px 3px;
+  background-color:#d1cdc9;
+}
+.footer ul {
+  padding-left:70%;
+}
+.footer li {
+  list-style:none;
+  float:left;
+  padding-left:40px;
+}
+.footer p {
+  text-align:center;
+  padding:10%;
+}
+</style>
